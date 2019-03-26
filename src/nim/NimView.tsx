@@ -25,7 +25,7 @@ export const GameInput = ({stack, cpuTurn, playersTurn, newGame}: IGameInputProp
     if (stack > 0) {
         return cpuTurn ? <p>CPU am Zug</p> : <GameInputButtons stack={stack} playersTurn={playersTurn}/>
     } else {
-        return <button onClick={newGame}>Neues Spiel</button>
+        return <button id="newGameButton" onClick={newGame}>Neues Spiel</button>
     }
 };
 

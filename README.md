@@ -22,3 +22,14 @@ Eingesetzte Technologien:
 * React (build automagisch durch "create-react-app --typescript")
 * jest + enzyme + Testcafe
 
+
+# Setup
+
+
+`npm i` Dependencies installieren
+
+`npm start` Dev Server starten 
+
+`npm test` Unittests starten
+
+`npm start` Testcafe starten 
