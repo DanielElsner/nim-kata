@@ -21,8 +21,6 @@ test('Inital rendering', async t => {
         .expect(Selector('button').exists).ok()
         .expect(Selector('button').count).eql(3)
         .click(Selector('button'));
-
-
 });
 
 test('Test full game', async t => {
@@ -30,6 +28,4 @@ test('Test full game', async t => {
         .expect(Selector('h1').innerText).eql('NIM-Spiel')
         .expect(Selector('button').exists).ok();
     await playGame(t);
-
-
 });
