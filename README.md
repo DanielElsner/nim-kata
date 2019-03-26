@@ -32,4 +32,4 @@ Eingesetzte Technologien:
 
 `npm test` Unittests starten
 
-`npm run testcafe` Testcafe starten 
+`npm run testcafe` Testcafe starten (während der Dev Server läuft)
